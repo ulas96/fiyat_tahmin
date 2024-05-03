@@ -8,9 +8,9 @@ import sklearn
 from sklearn.exceptions import NotFittedError
 
 # Constants
-BUCKET_NAME = 'miull.com'
+BUCKET_NAME = 'fiyat-tahmin'
 LOCAL_MODEL_PATH = "/tmp/car.pkl"
-REMOTE_MODEL_PATH = "car.pkl"
+REMOTE_MODEL_PATH = "model_car.pkl"
 ALLOWED_ORIGINS = ['https://miuulapp.github.rocks', 'http://localhost:3011']
 
 def lambda_handler(event, context):

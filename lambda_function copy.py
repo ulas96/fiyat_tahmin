@@ -6,7 +6,7 @@ import os
 import numpy as np
 import sklearn
 
-bucket_name = 'busonbucket'
+bucket_name = 'fiyat-tahmin'
 local_model_path = "/tmp/car.pkl"
 remote_model_path = "model_car.pkl"
 
